@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fields/Image render 1`] = `
+<label
+  className=""
+  style={
+    Object {
+      "backgroundImage": "url('')",
+    }
+  }
+>
+  <input
+    accept="image/png, image/jpeg, image/jpg"
+    onChange={[Function]}
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+    type="file"
+  />
+  <input
+    type="hidden"
+  />
+</label>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fields/Radio render 1`] = `
+<label
+  className="root"
+>
+  <input
+    type="radio"
+  />
+</label>
+`;

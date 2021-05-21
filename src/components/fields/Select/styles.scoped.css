@@ -1,0 +1,54 @@
+.root {
+  appearance: none;
+  background: url(/assets/ic_chevron_red_down.svg);
+  background-color: #FFFFFF;
+  background-position: calc(100% - 0.75rem);
+  background-repeat: no-repeat;
+  border: 0.0625rem solid #cccccc;
+  border-radius: 0.5rem;
+  box-shadow: none;
+  color: var(--light-text-color);
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 400;
+  outline: none;
+  padding: 0.75rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: 100%;
+}
+
+.root:not(.error):focus {
+  border-color: #808080;
+  box-shadow: 0 0 0 0.0625rem #808080;
+  color: #333435;
+}
+
+.root:disabled {
+  background-color: #e5e5e5 !important;
+  color: #999999 !important;
+}
+
+.empty {
+  color: #b2b4b5;
+}
+
+.root.error {
+  border-color: #ee4c24;
+}
+
+.root + small.error {
+  color: #ee4c24;
+  display: block;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.0625rem;
+  color: #999999;
+  font-weight: 400;
+  font-size: 0.75rem;
+}

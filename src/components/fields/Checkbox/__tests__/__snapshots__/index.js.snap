@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fields/Checkbox render 1`] = `
+<React.Fragment>
+  <label>
+    <input
+      className=""
+      type="checkbox"
+    />
+    <span />
+  </label>
+</React.Fragment>
+`;
+
+exports[`src/components/fields/Checkbox render error 1`] = `
+<React.Fragment>
+  <label>
+    <input
+      className=""
+      type="checkbox"
+    />
+    <span />
+  </label>
+  <small>
+    error
+  </small>
+</React.Fragment>
+`;

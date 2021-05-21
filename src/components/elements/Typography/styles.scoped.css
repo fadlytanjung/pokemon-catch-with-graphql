@@ -1,0 +1,46 @@
+.headline-large{
+  font-size:24px;
+  line-height:36px
+}
+.typography-headline-large{
+  font-size:24px;
+  line-height:36px
+}
+.typography-headline-medium{
+  font-size:20px;
+  line-height:30px
+}
+.typography-headline-body{
+  font-size:18px;
+  line-height:21px
+}
+.typography-headline-small,.typography-headline-reguler{
+  font-size:16px;
+  line-height:24px
+}
+.typography-button{
+  font-size:14px;
+  line-height:21px
+}
+.typography-caption{
+  font-size:12px;
+  line-height:18px
+}
+.bold{
+  font-weight:700
+}
+.semibold{
+  font-weight: 600;
+}
+.medium{
+  font-weight: 500;
+}
+.reguler{
+  font-weight:400
+}
+.light{
+  font-weight: 300;
+}
+.typography{
+  font-style:normal
+}

@@ -1,0 +1,22 @@
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  padding:48px 38px;
+}
+.wrapper img{
+  max-width: 280px;
+  width: 100%;
+}
+.wrapper h4{
+  color: var(--text-color);
+}
+.wrapper h3{
+  color: var(--black-color);
+}
+.wrapper button{
+  margin-top: 12px;
+}

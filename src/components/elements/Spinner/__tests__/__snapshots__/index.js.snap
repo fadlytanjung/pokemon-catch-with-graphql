@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/Spinner render 1`] = `
+<div
+  className=""
+  style={
+    Object {
+      "height": "0.9rem",
+      "width": "0.9rem",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "borderColor": "#ffffff transparent transparent transparent",
+      }
+    }
+  />
+  <div
+    style={
+      Object {
+        "borderColor": "#ffffff transparent transparent transparent",
+      }
+    }
+  />
+  <div
+    style={
+      Object {
+        "borderColor": "#ffffff transparent transparent transparent",
+      }
+    }
+  />
+  <div
+    style={
+      Object {
+        "borderColor": "#ffffff transparent transparent transparent",
+      }
+    }
+  />
+</div>
+`;

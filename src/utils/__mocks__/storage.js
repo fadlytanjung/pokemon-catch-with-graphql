@@ -1,0 +1,17 @@
+export const setToken = jest.fn();
+export const getToken = jest.fn(() => true);
+export const clearStorages = jest.fn();
+export const setExpireTime = jest.fn();
+export const checkExpireTime = jest.fn(() => false);
+export const setUserData = jest.fn();
+export const getUserData = jest.fn(() => ({ profilePicture: 'tes' }));
+export const setGuestAddress = jest.fn();
+export const getGuestAddress = jest.fn(() => '');
+export const clearGuestAddress = jest.fn();
+export const setSessionTime = jest.fn();
+export const getSessionTime = jest.fn(() => 10);
+export const setCountdown = jest.fn();
+export const getCountdown = jest.fn(() => 10);
+export const clearCountdown = jest.fn();
+export const setDefaultLanguage = jest.fn();
+export const getDefaultLanguage = jest.fn(() => 'ID');

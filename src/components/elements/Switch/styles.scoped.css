@@ -1,0 +1,59 @@
+.root {
+  appearance: none;
+  background-color: #ee3124;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  height: 1.5rem;
+  position: relative;
+  transition: background-color 0.2s ease-in-out;
+  width: 3rem;
+}
+
+.root::after {
+  background-color: #ffffff;
+  border-radius: 50%;
+  content: '';
+  height: 1.25rem;
+  position: absolute;
+  top: 0.125rem;
+  transition: left 0.2s ease-in-out;
+  width: 1.25rem;
+}
+
+.root:not(:checked) {
+  background-color: #ccc;
+}
+
+.root:not(:checked)::after {
+  left: 0.125rem;
+}
+
+.root:checked::after {
+  left: 1.625rem;
+}
+
+.root:before {
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 400;
+  position: absolute;
+  text-transform: uppercase;
+  top: 0.25rem;
+}
+
+.root:not(:checked)::before {
+  content: attr(data-no);
+  left: 1.66rem;
+}
+
+.root:checked::before {
+  content: attr(data-yes);
+  right: 1.8rem;
+}
+
+@media only screen and (max-width: 48em) {
+  .root:before {
+    font-weight: 600;
+    top: 0.2542rem;
+  }
+}

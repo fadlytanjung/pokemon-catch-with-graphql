@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/Webp render 1`] = `
+<picture
+  className=""
+  style={Object {}}
+>
+  <source
+    srcSet="/assets/.webp"
+    type="image/webp"
+  />
+  <source
+    srcSet="/assets/.png"
+    type="image/png"
+  />
+  <img
+    alt=""
+    src="/assets/.png"
+  />
+</picture>
+`;

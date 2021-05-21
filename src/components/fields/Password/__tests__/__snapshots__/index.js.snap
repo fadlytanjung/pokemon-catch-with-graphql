@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fields/Password render 1`] = `
+<React.Fragment>
+  <label />
+  <div
+    className="root"
+  >
+    <input
+      onBlur={[Function]}
+      onFocus={[Function]}
+      type="password"
+    />
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      <img
+        alt=""
+        src="/assets/icon_pw_hide.svg"
+      />
+    </button>
+  </div>
+</React.Fragment>
+`;

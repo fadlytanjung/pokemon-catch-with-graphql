@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/Tabs render 1`] = `
+<nav
+  className=""
+>
+  <a
+    onClick={[Function]}
+  >
+    test1
+  </a>
+  <a
+    className=""
+    onClick={[Function]}
+  >
+    test2
+  </a>
+</nav>
+`;

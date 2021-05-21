@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/Card render 1`] = `
+<div
+  className=""
+  disabled={false}
+/>
+`;
+
+exports[`src/components/elements/Card render button 1`] = `
+<button
+  className=""
+  disabled={false}
+  onClick={[MockFunction]}
+/>
+`;
+
+exports[`src/components/elements/Card render external link 1`] = `
+<a
+  className=""
+  disabled={false}
+  href="https://www.indihome.co.id/"
+/>
+`;
+
+exports[`src/components/elements/Card render link 1`] = `
+<Link
+  className=""
+  disabled={false}
+  onClick={null}
+  to="/"
+/>
+`;

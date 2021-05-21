@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/Avatar render 1`] = `
+<figure
+  className=""
+  style={
+    Object {
+      "backgroundImage": "url('')",
+    }
+  }
+/>
+`;

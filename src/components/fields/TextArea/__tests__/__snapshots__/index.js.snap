@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fields/TextArea render 1`] = `
+<React.Fragment>
+  <label />
+  <textarea
+    className=""
+  />
+</React.Fragment>
+`;
+
+exports[`src/components/fields/TextArea render error 1`] = `
+<React.Fragment>
+  <label />
+  <textarea
+    className=""
+  />
+  <small>
+    error
+  </small>
+</React.Fragment>
+`;

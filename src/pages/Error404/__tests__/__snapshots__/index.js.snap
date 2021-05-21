@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Error404 render 1`] = `
+<MainBase
+  back={true}
+  label=""
+  to="/"
+>
+  <section>
+    <img
+      src="./assets/notfound.png"
+    />
+    <Typography
+      tag="h3"
+      variant="headline-medium"
+      weight="semibold"
+    >
+      Page not found
+    </Typography>
+    <Typography
+      tag="h4"
+      variant="button"
+      weight="reguler"
+    >
+      We cannot find your request page
+    </Typography>
+    <Link
+      to="/"
+    >
+      <Button
+        className=""
+        disabled={false}
+        height={48}
+        onClick={null}
+        to=""
+        type="button"
+        variant="primary"
+        width={168}
+      >
+        Back to home
+      </Button>
+    </Link>
+  </section>
+</MainBase>
+`;

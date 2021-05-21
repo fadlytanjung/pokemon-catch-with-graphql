@@ -1,0 +1,61 @@
+#disabled-field{
+  background-color:#C8CACD;
+  cursor:not-allowed
+}
+.error{
+  color:var(--error-color);
+}
+.helper{
+  display:block;
+  left:0;
+  position:absolute;
+  margin-top:5px;
+  top:100%
+}
+.textfield{
+  background-color:inherit;
+  cursor:inherit;
+  border:none;
+  height:95%;
+  outline:none;
+  width:100%;
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--text-color);
+}
+.textarea{
+  min-height: 120px !important;
+  height:auto !important;
+  overflow-y: hidden;
+  resize: none;
+ }
+.textfield-error,.textfield-error:focus{
+  border-color: var(--error-color) !important;
+}
+
+.textfield-root{
+  position:relative
+}
+.textfield-wrapper{
+  align-items:center;
+  display:flex;
+  background-color:#fff;
+  border:1px solid;
+  border-color:var(--border-color);
+  border-radius:8px;
+  height:40px;
+  padding:0px 10px 0px 10px;
+  position:relative
+}
+.textarea-wrapper{
+  min-height: 144px !important;
+  height: auto !important;
+}
+.textfield-wrapper:focus-within{
+  border-color: var(--primary-color);
+}
+.title{
+  display:block;
+  margin-bottom:5px;
+  color: var(--text-color);
+}

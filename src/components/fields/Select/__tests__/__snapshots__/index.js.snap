@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fields/Select render 1`] = `
+<React.Fragment>
+  <label />
+  <select
+    className=""
+  >
+    <option
+      disabled={true}
+      value=""
+    />
+    <option
+      value=""
+    >
+      
+    </option>
+  </select>
+</React.Fragment>
+`;

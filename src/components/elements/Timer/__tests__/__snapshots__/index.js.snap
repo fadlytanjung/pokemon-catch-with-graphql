@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/Timer render 1`] = `
+<span
+  className=""
+>
+  <img
+    alt=""
+    src="/assets/ic_timer.svg"
+  />
+  
+  :
+  
+</span>
+`;

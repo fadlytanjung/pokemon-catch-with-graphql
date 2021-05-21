@@ -1,0 +1,8 @@
+.root {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+}

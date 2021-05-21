@@ -1,0 +1,14 @@
+.root {
+  align-items: center;
+  background-color: #115b79;
+  border-radius: 1.125rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 1, 0.15);
+  color: #ffffff;
+  display: flex;
+  padding: 0.25rem 0.5rem;
+}
+
+.root > img {
+  height: 1rem;
+  margin-right: 0.5rem;
+}
