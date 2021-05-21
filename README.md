@@ -1,6 +1,7 @@
 # Installation
 - Clone project
 - Run `npm install`
+- Run  `npx husky add .husky/pre-commit "npm run test && npm run lint"`
 - Run `npm run dev`
 - Open `localhost:4000` in browser
 
