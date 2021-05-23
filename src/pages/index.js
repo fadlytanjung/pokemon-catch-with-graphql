@@ -3,7 +3,11 @@ import LazyFallback from '../components/elements/LazyFallback';
 
 const Suspensed = (Element) => function suspense(props) {
   return (
-    <Suspense fallback={<LazyFallback />}>
+    <Suspense fallback={
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+        <LazyFallback />
+      </div>
+      }>
       <Element {...props} />
     </Suspense>
   );

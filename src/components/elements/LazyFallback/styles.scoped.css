@@ -1,9 +1,9 @@
 .root {
-  align-items: center;
-  display: flex;
-  height: 100%;
-  justify-content: center;
-  width: 100%;
+  align-items: center !important;
+  display: flex !important;
+  height: 100% !important;
+  justify-content: center !important;
+  width: 100% !important;
 }
 
 .root > div {
